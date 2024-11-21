@@ -2,14 +2,14 @@ export const siteConfig = {
   author: 'Kevin Wong',
   title: 'Vitesse theme for Astro',
   subtitle: 'Vitesse theme for Astro, supports Vue and UnoCSS.',
-  description: 'A Minimal, SEO-friendly portfolio and blog theme for Astro.',
+  description: 'My portfolio website, built with Astro and Vitesse theme.',
   image: {
     src: '/hero.jpg',
     alt: 'Website Main Image',
   },
-  email: 'kevinwong865@gmail.com',
+  email: 'lucaslrozenberg@gmail.com',
   socialLinks: [
-    {
+    /*  {
       text: 'GitHub',
       href: '',
       icon: 'i-simple-icons-github',
@@ -20,13 +20,13 @@ export const siteConfig = {
       href: '',
       icon: 'i-simple-icons-x',
       header: 'i-ri-twitter-x-line',
-    },
+    }, */
     {
       text: 'Linkedin',
-      href: '',
+      href: 'https://www.linkedin.com/in/lucasrozenberg/',
       icon: 'i-simple-icons-linkedin',
     },
-    {
+    /*  {
       text: 'Instagram',
       href: '',
       icon: 'i-simple-icons-instagram',
@@ -35,15 +35,15 @@ export const siteConfig = {
       text: 'Youtube',
       href: '',
       icon: 'i-simple-icons-youtube',
-    },
+    }, */
   ],
   header: {
     logo: {
-      src: '/favicon.svg',
+      src: 'https://media.licdn.com/dms/image/v2/D4D03AQFp81ollwYMEw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1673416856601?e=1737590400&v=beta&t=wvIDSUAtzBW_ZyKTVFNh8-abTGyK0zolM-BbmpX_TKI',
       alt: 'Logo Image',
     },
     navLinks: [
-      {
+      /*  {
         text: 'Blog',
         href: '/blog',
       },
@@ -58,7 +58,7 @@ export const siteConfig = {
       {
         text: 'Projects',
         href: '/projects',
-      },
+      }, */
     ],
   },
   page: {
